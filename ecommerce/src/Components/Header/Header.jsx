@@ -1,24 +1,27 @@
+import TopArrow from '@/pages/fonts/icons/topArrow';
+import '@/styles/header.css';
 const Header = () => {
   return (
     <>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          background: ' #F0F1F1',
-        }}
-      >
-        <section style={{ display: 'flex', gap: '30px' }}>
-          <div>English</div>
-          <div>Help Center</div>
-          <div>HelpLine 0964781656</div>
-        </section>
+      <div className='headerContainer'>
+        <div className='headerChild'>
+          <div className='headerleft'>
+            <div className='headerLanguage'>
+              <p>English</p>
+              <div>
+                <TopArrow color='#F97316' size='16' />
+              </div>
+            </div>
+            <div>Help Center</div>
+            <div>HelpLine: 0964781656</div>
+          </div>
 
-        <section style={{ display: 'flex', gap: '30px' }}>
-          <div>Become a Seller</div>
-          <div>Order Trac</div>
-          <div>Sign up/ Login</div>
-        </section>
+          <div className='headerleft'>
+            <div>Become a Seller</div>
+            <div>Order Trac</div>
+            <div className='headerRegister'>Sign up/ Login</div>
+          </div>
+        </div>
       </div>
     </>
   );

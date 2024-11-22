@@ -1,0 +1,37 @@
+.navbarContainer {
+  margin: 0px 20px;
+}
+.navbarParent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarSearch {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  border-radius: 5px;
+  height: 44px;
+}
+.navbarSearchInput {
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.navbarSearchIcon {
+  background-color: #f97316;
+}
+
+.navbarIcons {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.navbarIconColor {
+  background-color: #f0f1f1;
+}

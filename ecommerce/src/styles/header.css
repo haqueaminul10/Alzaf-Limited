@@ -1,0 +1,24 @@
+.headerContainer {
+  background-color: #f0f1f1;
+}
+.headerChild {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.headerleft {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+.headerLanguage {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.headerLanguage > p {
+  color: #f97316;
+}
+.headerRegister {
+  color: #f97316;
+}
