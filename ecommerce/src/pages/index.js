@@ -1,6 +1,7 @@
 import Header from '@/Components/Header/Header';
 import Navbar from '@/Components/Header/Navbar';
 import Category from '@/Components/Category/Category';
+
 export default function Home({ categories }) {
   return (
     <>

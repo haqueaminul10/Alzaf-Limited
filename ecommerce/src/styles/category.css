@@ -1,0 +1,73 @@
+/* .categoryContainer {
+  margin-top: 5px;
+}
+
+.categoriesItemsContainer {
+}
+.categoryOne {
+  background-color: pink;
+  width: 230px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categoryTitle {
+  margin-top: 5px;
+
+  font-size: 15px;
+} */
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-right: 1px solid #ddd;
+}
+
+.categoryItem {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.categoryContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.categoryIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.categoryLink {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.categoryItem:hover .categoryLink {
+  color: #0070f3;
+}
+
+.subCategories {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 1px solid #ddd;
+  z-index: 100;
+}

@@ -1,22 +1,17 @@
+import '@/styles/category.css';
+import SubCategory from './SubCategory';
+
 const Category = ({ categories }) => {
-  console.log('🚀 ~ Category ~ categories:', categories);
   return (
     <>
-      <div>
-        {categories && categories.length > 0 && (
-          <ul style={{ listStyle: 'none', margin: '2px' }}>
-            {categories.map((category) => {
-              return (
-                <li
-                  key={category.id}
-                  style={{ margin: '10px', cursor: 'pointer' }}
-                >
-                  {category.title}
-                </li>
-              );
-            })}
-          </ul>
-        )}
+      <div className='heroSection'>
+        <div className='cateforyList'>
+          {categories &&
+            categories.length > 0 &&
+            categories.map((category) => (
+              <SubCategory key={category.id} category={category} />
+            ))}
+        </div>
       </div>
     </>
   );

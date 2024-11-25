@@ -35,3 +35,13 @@
 .navbarIconColor {
   background-color: #f0f1f1;
 }
+
+.navbarCloud {
+  background-color: #f97316;
+  color: white;
+  padding: 0 7px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 2px;
+}

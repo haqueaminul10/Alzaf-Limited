@@ -5,6 +5,7 @@ import Favourite from '@/pages/fonts/icons/Favourite';
 import Profile from '@/pages/fonts/icons/Profile';
 import SearchIcon from '@/pages/fonts/icons/search';
 import Image from 'next/image';
+import CloudIcon from '@/pages/fonts/icons/Cloud';
 const Navbar = () => {
   return (
     <div className='navbarContainer'>
@@ -40,10 +41,11 @@ const Navbar = () => {
             <Cart color='#000' size='22' />
           </div>
         </div>
-        <div
-          style={{ background: ' #F97316', color: 'white', padding: '10px' }}
-        >
-          Cloud Service
+        <div className='navbarCloud'>
+          <div>
+            <CloudIcon color='#FFFFFF' size='45' />
+          </div>
+          <div> Cloud Service</div>
         </div>
       </div>
     </div>
